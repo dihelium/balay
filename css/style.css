@@ -399,7 +399,7 @@ body.offcanvas {
 .about-img-2,
 .services-img {
   background-size: cover;
-  background-position: center center;
+  background-position: center top;
   background-repeat: no-repeat;
   position: relative; }
 
@@ -872,8 +872,9 @@ body.offcanvas {
     font-weight: 700;
     margin-bottom: .3em; }
   .colorlib-counters .colorlib-counter-label {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 1);
     text-transform: uppercase;
+      text-stroke: 200%;
     font-size: 14px;
     letter-spacing: 5px;
     margin-bottom: 2em;
